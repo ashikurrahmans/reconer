@@ -1,0 +1,14 @@
+subfinder
+httpx
+dnsx
+naabu
+nuclei
+katana
+assetfinder
+gau
+waybackurls
+hakrawler
+subjack
+amass
+jq
+nmap
