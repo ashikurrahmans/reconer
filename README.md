@@ -9,7 +9,7 @@ This guide explains **how a user should use Reconer from start to finish** witho
 
 ```bash
 git clone https://github.com/yourusername/Reconer.git
-cd Reconer
+cd reconer
 ```
 
 ---
@@ -19,7 +19,8 @@ cd Reconer
 Make the script executable:
 
 ```bash
-chmod +x Reconer.sh
+chmod +x install.sh
+./install.sh
 ```
 
 ✅ This allows your system to run the tool as a program.
