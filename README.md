@@ -27,13 +27,25 @@ chmod +x install.sh
 
 ---
 
-# 📦 Step 3 — Install Required Dependencies
+# 📦 Step 3 — Install Required Dependencies (MAC & Kali)
 
 Install required recon tools:
 
 ```bash
+Mac Version : 
+
 brew install jq curl httpx subfinder assetfinder gau waybackurls ffuf
 npm install -g wappalyzer
+
+Kali Version : 
+
+sudo apt update && sudo apt install -y jq curl git golang ffuf npm && \
+go install github.com/projectdiscovery/httpx/cmd/httpx@latest && \
+go install github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest && \
+go install github.com/tomnomnom/assetfinder@latest && \
+go install github.com/lc/gau/v2/cmd/gau@latest && \
+go install github.com/tomnomnom/waybackurls@latest && \
+sudo npm install -g wappalyzer
 ```
 
 ---
